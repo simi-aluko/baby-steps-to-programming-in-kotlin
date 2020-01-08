@@ -42,9 +42,9 @@ fun main(){
     /* BOOLEAN TYPE
     * */
 
-    val isEarthSpherical = true
-    val isEarthFlat = false
-
+    val isEarthSpherical : Boolean = true
+    val isEarthFlat : Boolean = false
+    val someBoolean = true
 
     /*
     *
@@ -67,8 +67,8 @@ fun main(){
     *
     * */
 
-    val intArray : IntArray = intArrayOf(1, 2, 3, 4, 5)
-    val booleanArray : BooleanArray = booleanArrayOf(true, false, false)
+    val intArray : Array<Int> = arrayOf(1, 2, 3, 4, 5)
+    val booleanArray : Array<Boolean> = arrayOf(true, false, false)
     val fruitArray : Array<String> = arrayOf("apple", "oranges", "melon")
 
 
